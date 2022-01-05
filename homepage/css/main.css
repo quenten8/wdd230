@@ -1,0 +1,52 @@
+body {
+    font-size: 18px;
+    margin:1.25rem auto;
+    max-width: 760px;
+    padding: 30px;
+    font-family: Arial;
+}
+header, footer{
+    background-color: #2980B9;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 10px 6px 20px rgba(128, 128, 128, 0.6), -6px -10px 20px rgba(128, 128, 128, 0.6);
+    border-radius: 12px;
+}
+img {
+    max-width: 120px;
+    height: auto;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.6), -1px -1px 20px rgba(0, 0, 0, 0.6);
+}
+header {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+footer {
+    height: auto;
+    margin-top: 30px;
+}
+#name {
+    text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.6), -8px -8px 16px rgba(0, 0, 0, 0.6);
+}
+#subject {
+    text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.6), -8px -8px 16px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+.footerText {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    padding: -30px;
+    line-height:0;
+}
+.date {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-top: -40px;
+    color: yellow;
+    font-size: medium;
+    padding-right: 20%;
+    padding-left: 20%;
+}
