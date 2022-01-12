@@ -1,0 +1,10 @@
+@media (min-width: 55em) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .box:last-child {
+        grid-column: span 1;
+        }
+
+}

@@ -1,0 +1,9 @@
+@media (min-width: 32.5em) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto;   
+    }
+    .box:last-child {
+        grid-column: span 2;
+        }
+}
