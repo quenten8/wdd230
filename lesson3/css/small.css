@@ -1,4 +1,4 @@
-body, footer {
+body {
     font-family: 'outfit', Arial;
     max-width: 960px;
 	margin: 0 auto;
@@ -30,11 +30,13 @@ header {
     border-bottom:solid #D14B1D;
 }
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     border-top: solid #D14B1D;
     text-align: center;
-    width: 100%;
+    width: 95%;
+    max-width: 960px;
+    background: #E7E7E7;
 }
 p {
     font-family: 'roboto', Arial;
