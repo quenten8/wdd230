@@ -30,8 +30,6 @@ header {
     border-bottom:solid #D14B1D;
 }
 footer {
-    position: fixed;
-    bottom: 0;
     border-top: solid #D14B1D;
     text-align: center;
     width: 95%;
