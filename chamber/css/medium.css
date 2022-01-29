@@ -1,0 +1,25 @@
+@media (min-width: 32em) {
+    header {
+        grid-template-rows: 80px 80px;
+    }
+    #logo {
+        width: 100px;
+        padding-left: 10px;
+    }
+    #title {
+        font-size: xx-large;
+    }
+    #date {
+        font-size: large;
+        align-self: start;
+    }
+    #social1 {
+        width: 80px;
+    }
+    #social2 {
+        width: 80px;
+    }
+    #footerLogo {
+        width: 80px;
+    }
+}

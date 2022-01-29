@@ -1,0 +1,16 @@
+@media (min-width: 55em) {
+    #title {
+        font-size: xx-large;
+    }
+    #date {
+        font-size: large;
+    }
+    .button {
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        justify-content: center;
+        
+      }
+}
