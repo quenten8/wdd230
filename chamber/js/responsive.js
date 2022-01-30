@@ -1,6 +1,7 @@
 function showNav() {
-    const hambutton = document.querySelector('.button');
+    const button = document.querySelector('.button');
     const mainnav = document.querySelector('.navigation')
-    hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
-    window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+    button.addEventListener('click', () => {mainnav.classList.toggle('open')}, false);
+    window.onload = () => {if (window.innerWidth > 900) mainnav.classList.add('open')};
+    window.onresize = () => {if (window.innerWidth > 900) mainnav.classList.add('open')};
   }

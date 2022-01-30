@@ -2,6 +2,9 @@
     header {
         grid-template-rows: 80px 80px;
     }
+    main {
+        padding: 10px;
+    }
     #logo {
         width: 100px;
         padding-left: 10px;

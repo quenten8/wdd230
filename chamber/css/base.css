@@ -8,12 +8,12 @@ p {
 header {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 50px 50px 40px;
+    grid-template-rows: 50px 50px;
     padding-bottom: 10px;
     background: #D8D8D8;
 }
 main {
-    max-width: 960px;
+    max-width: 1280px;
 	margin: 0 auto;
     padding: 10px;
     border-bottom: solid #D14B1D;
@@ -59,31 +59,45 @@ footer {
 #footerLogo {
     width: 60px;
 }
-.navigation, .button {
+.navigation {
     grid-column: 1/7;
     justify-self: center;
     width: 100%;
 }
-.navigation a, .button {
+.navigation a {
     background:#50A6A5;
     padding: 10px 50px;
     font-size: large;
     text-decoration: none;
     color: white;
-    display: block;
     text-align: center;
 }
 .navigation a:hover {
     background: #448C8C;
 }
-.button {
+.navigation a.button {
     background: #448C8C;
   }
-.navigation {
+.navigation a {
     display: none;
   }
-.responsive {
+.navigation a:first-child {
 	display: block;
+}
+.navigation a:nth-child(2) {
+    border-radius: 0px;
+}
+.navigation a:last-child {
+    border-radius: 0px;
+}
+.navigation a.button::before {
+	content: "☰";
+}
+.open a {
+	display: block;
+}
+.open a.button::before {
+	content: "X";
 }
 iframe {
     max-width: 100%;

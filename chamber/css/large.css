@@ -5,12 +5,17 @@
     #date {
         font-size: large;
     }
-    .button {
+    .navigation a:first-child {
         display: none;
     }
     .navigation {
         display: flex;
         justify-content: center;
-        
       }
+    .navigation a:nth-child(2) {
+        border-radius: 10px 0px 0px 10px;
+    }
+    .navigation a:last-child {
+        border-radius: 0px 10px 10px 0px;
+    }
 }
