@@ -10,6 +10,7 @@ header {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 50px 50px 40px;
     padding-bottom: 10px;
+    background: #D8D8D8;
 }
 main {
     max-width: 960px;
@@ -83,12 +84,6 @@ footer {
   }
 .responsive {
 	display: block;
-}
-.button::before {
-	content: "☓ ";
-}
-.button::before {
-	content: "☰ ";
 }
 iframe {
     max-width: 100%;
