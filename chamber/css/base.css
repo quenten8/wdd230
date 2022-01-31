@@ -8,7 +8,7 @@ p {
 header {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 50px 50px;
+    grid-template-rows: 50px 50px auto;;
     padding-bottom: 10px;
     background: #D8D8D8;
 }
@@ -18,6 +18,8 @@ main {
     padding: 10px;
     border-bottom: solid #D14B1D;
     border-top: solid #D14B1D;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 footer {
     width: 100%;
@@ -63,6 +65,7 @@ footer {
     grid-column: 1/7;
     justify-self: center;
     width: 100%;
+    grid-row: 3;
 }
 .navigation a {
     background:#50A6A5;
@@ -71,6 +74,7 @@ footer {
     text-decoration: none;
     color: white;
     text-align: center;
+    display: flex;
 }
 .navigation a:hover {
     background: #448C8C;
