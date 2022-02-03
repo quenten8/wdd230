@@ -51,3 +51,7 @@ footer {
     padding-right: 10%;
     padding-left: 10%;
 }
+a {
+    text-decoration: none;
+    font-weight: bold;
+}

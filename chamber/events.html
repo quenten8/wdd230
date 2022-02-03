@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mountainside Chambers</title>
 <meta name="description" content="Chambers website for the city of Queen Creek">
+<link rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,11 +20,11 @@
 </head>
 <body>
     <header>
-        <a id="logo" href="index.html"><img id="logo" src="images/mountain.png"></a>
-        <h1 id="title">Mountainside Chambers</h1>
+        <a class="logo" href="index.html"><img class="logo" src="images/mountain.png" alt="Image of Mountainside Chambers logo"></a>
+        <h1 id="title" >Mountainside Chambers</h1>
         <p id="date"></p>
-        <a id="social1" href="#"><img id="social1" src="images/Instagram.jpg"></a>
-        <a id="social2" href="#"><img id="social2" src="images/Facebook.png"></a>
+        <div class="social1"><a href="#"><img class="social1" src="images/Instagram.jpg" alt="Instagram logo"></a></div>
+        <div class="social2"><a href="#"><img class="social2" src="images/Facebook.png" alt="Facebook logo"></a></div>
         <nav class="navigation">
               <a href="javascript:void(0);" class="button"></a>
               <a href="events.html">Events</a>
@@ -33,13 +34,18 @@
         </nav>
     </header>
     <main>
+        <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            <hr>
+        </div>
 
     </main>
     <footer>
-        <img id="footerLogo" src="images/mountain.png">
+        <img id="footerLogo" src="images/mountain.png" alt="Image of Mountainside Chambers logo">
         <p>quenten.cox00@outlook.com</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13347.248812163933!2d-111.634921!3d33.245223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x78ff06fc86b49804!2sQueen%20Creek%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1643428783655!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <p>&copy; <span id="year"></span> | Mountainside Chambers | Quenten Cox | WDD 230 Project | Last Updated: <span id="Modified"></span><p>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13347.248812163933!2d-111.634921!3d33.245223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x78ff06fc86b49804!2sQueen%20Creek%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1643428783655!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <hr>
+        <p>&copy; <span id="year"></span> | Mountainside Chambers | Quenten Cox | WDD 230 Project<p>
+        <p>Last Updated: <span id="Modified"></span></p>
     </footer>
     <script>year()</script>
     <script>lastModified()</script>

@@ -9,4 +9,8 @@ function getDate() {
 
   d = `${weekday}, ${day} ${month} ${year}`;
   document.getElementById("date").innerHTML = d;
+
+if (weekday != "Monday" && "Tuesday") {
+  document.getElementById("banner").style.display = "none"
+  }
 }
