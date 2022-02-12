@@ -1,14 +1,10 @@
-@media (min-width: 35em) {
+@media (min-width: 32em) {
     header {
         grid-template-rows: 70px 70px;
     }
     .logo, #footerLogo {
-        width: 130px;
+        width: 100px;
         padding: 5px;
-    }
-    .companyLogo {
-        min-width: 200px;
-        height: 300px;
     }
     #title {
         font-size: xx-large;
@@ -27,11 +23,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    footer {
-        grid-template-columns: repeat(3, 33%);
-    }
-
-    #hero {
+    #heroImage {
         grid-column: 1/4;
     }
     #news {
@@ -48,10 +40,5 @@
     }
     #highlights {
         grid-area: 5 / 1 / 5 / 4;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    #highlights h3 {
-        grid-column: 1/3;
     }
 }

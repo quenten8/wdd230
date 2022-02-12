@@ -4,10 +4,6 @@ body {
 p {
     font-family: 'roboto', Arial;
 }
-a {
-    text-decoration: none;
-}
-
 
 /*Header*/
 header {
@@ -51,15 +47,17 @@ main {
     max-width: 1600px;
 	margin: 0 auto;
     padding: 10px;
+    border-bottom: solid #D14B1D;
+    border-top: solid #D14B1D;  
 }
-#heroImage {
+#hero {
     width: 100%;
     height: 300px;
     object-fit: cover;
     object-position: 50% 50%;
     border-radius: 2px;
 }
-#hero {
+#heroImage {
     display: flex;
     justify-content: center;
 }
@@ -79,35 +77,8 @@ h3 {
     border-radius: 5px;
     border: solid #D14B1D;
 }
-.blocks div:not(#hero) {
+.blocks div:not(#heroImage) {
     padding: 0 10px;
-}
-.companyLogo {
-    width: 100%;
-    object-fit: cover;
-}
-#joinButton, #heroButton {
-    background:#50A6A5;
-    padding: 8px 20px;
-    font-size: large;
-    color: white;
-    text-align: center;
-    transition: 0.3s;
-    border-radius: 5px;
-    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
-    box-shadow: 2px 7px 5px rgba(0,0,0,0.3);
-}
-#joinButton {
-    margin: 5px auto;
-    max-width: 200px;
-    display: flex;
-    justify-content: center;
-}
-#heroButton {
-    position: absolute;
-    align-self: end;
-    width: 100px;
-    margin-bottom: 10px;
 }
 #banner {
     text-align: center;
@@ -120,6 +91,7 @@ h3 {
     align-items: center;
     justify-items: center;
     text-align: center;
+    gap: -100px;
 }
 #weather h3 {
     grid-column: 1/3;
@@ -144,33 +116,19 @@ h3 {
     width: 100%;
     border: 1px solid black;
 }
-#weatherIcon {
-    width: 60px;
-}
-#highlights div {
-    border: none;
-    display: grid;  
-}
 
 /*Footer*/ 
 footer {
-    Display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    background: #E7E7E7;
-    justify-content: center;
+    margin: 0 auto;
     text-align: center;
+    background: #E7E7E7;
 }
-#footerLogo {
-    width: 130px;
-    grid-column: 1/2;
-    justify-self: right;
+#footerLogo, #weatherIcon {
+    width: 60px;
 }
-#footerInfo {
-    grid-column: 2/4;
-}
-#smallFooter {
-    grid-column: 1/4;
+#map {
+    max-width: 100%;
 }
 
 /*Navigation*/
@@ -184,14 +142,11 @@ footer {
     background:#50A6A5;
     padding: 10px 50px;
     font-size: large;
+    text-decoration: none;
     color: white;
     text-align: center;
     transition: 0.3s;
     text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
-    box-shadow: 2px 7px 5px rgba(0,0,0,0.3);
-}
-.navigation a:hover, .social:hover, #heroButton:hover, #joinButton:hover {
-    background: #D14B1D;
 }
 .navigation a {
     display: none;

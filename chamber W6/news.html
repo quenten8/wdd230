@@ -17,40 +17,39 @@
 <script src="../js/lastModified.js"></script>
 <script src="js/responsive.js"></script>
 <script src="js/date.js"></script>
-<script src="js/windchill.js"></script>
 </head>
 <body>
     <header>
-        <a class="logo" href="index.html"><img class="logo" src="images/mountain.webp" alt="Mountainside Chambers logo"></a>
+        <a class="logo" href="index.html"><img class="logo" src="images/mountain.png" alt="Image of Mountainside Chambers logo"></a>
         <h1 id="title" >Mountainside Chambers</h1>
         <p id="date"></p>
         <div class="social1"><a href="#"><img class="social1" src="images/Instagram.jpg" alt="Instagram logo"></a></div>
         <div class="social2"><a href="#"><img class="social2" src="images/Facebook.png" alt="Facebook logo"></a></div>
         <nav class="navigation">
               <a href="javascript:void(0);" class="button"></a>
-              <a href="discover.html">Discover</a>
-              <a href="directory.html">Directory</a>
-              <a href="join.html">Join</a>
+              <a href="events.html">Events</a>
+              <a href="news.html">News</a>
               <a href="contact.html">Contact</a>
+              <a href="about.html">About</a>
         </nav>
     </header>
     <main>
-    
+        <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            <hr>
+        </div>
+
     </main>
     <footer>
-        <a class="footerLogo" href="index.html"><img class="logo" src="images/mountain.webp" alt="Mountainside Chambers logo"></a>
-        <div id="footerInfo">
-            <h2>Mountainside Chambers</h2>
-            <p>22246 S Ellsworth, Queen Creek, AZ</p>
-            <p>+(480)-888-1709</p>
-            <a href="https://www.google.com/maps?ll=33.245223,-111.634921&z=14&t=m&hl=en&gl=US&mapclient=embed&cid=8718695085274077188">📍Locate On Map</a>
-        </div>
-        <div id="smallFooter"><p><hr>&copy; <span id="year"></span> | Mountainside Chambers | Quenten Cox | WDD 230 Project | Last Updated: <span id="Modified"></span></div>
+        <img id="footerLogo" src="images/mountain.png" alt="Image of Mountainside Chambers logo">
+        <p>quenten.cox00@outlook.com</p>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13347.248812163933!2d-111.634921!3d33.245223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x78ff06fc86b49804!2sQueen%20Creek%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1643428783655!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <hr>
+        <p>&copy; <span id="year"></span> | Mountainside Chambers | Quenten Cox | WDD 230 Project<p>
+        <p>Last Updated: <span id="Modified"></span></p>
     </footer>
     <script>year()</script>
     <script>lastModified()</script>
     <script>getDate()</script>
     <script>showNav()</script>
-    <script>windChill()</script>
 </body>
 </html>
