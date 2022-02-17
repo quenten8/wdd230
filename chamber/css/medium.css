@@ -1,4 +1,4 @@
-@media (min-width: 35em) {
+@media (min-width: 38em) {
     header {
         grid-template-rows: 70px 70px;
     }
@@ -30,7 +30,6 @@
     footer {
         grid-template-columns: repeat(3, 33%);
     }
-
     #hero {
         grid-column: 1/4;
     }
@@ -53,5 +52,18 @@
     }
     #highlights h3 {
         grid-column: 1/3;
+    }
+    img.loaded {
+        filter: blur(0em);
+    }
+    img.loaded:hover {
+        width: 300%;
+    }
+    #discover .row:nth-child(2n){
+        flex-direction: row-reverse;
+    }
+    .row {
+        display: flex;
+        overflow: hidden;
     }
 }

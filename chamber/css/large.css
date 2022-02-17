@@ -42,6 +42,20 @@
     footer {
         grid-template-columns: repeat(3, 250px);
     }
+    img.loaded {
+        height: 400px;
+    }
+    .row {
+        max-width: 1200px;
+    }
+    .imageDesc {
+        font-size: 22px;
+    }
+    img.loaded:hover {
+        width: 250%;
+        height: 450px;
+    }
+    
     .navigation a:first-child {
         display: none;
     }

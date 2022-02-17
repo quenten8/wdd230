@@ -17,7 +17,8 @@
 <script src="../js/lastModified.js"></script>
 <script src="js/responsive.js"></script>
 <script src="js/date.js"></script>
-<script src="js/windchill.js"></script>
+<script src="js/lazyload.js"></script>
+<script src="js/countvisit.js"></script>
 </head>
 <body>
     <header>
@@ -28,6 +29,7 @@
         <div class="social2"><a href="#"><img class="social2" src="images/Facebook.png" alt="Facebook logo"></a></div>
         <nav class="navigation">
               <a href="javascript:void(0);" class="button"></a>
+              <a href="index.html">Home</a>
               <a href="discover.html">Discover</a>
               <a href="directory.html">Directory</a>
               <a href="join.html">Join</a>
@@ -35,10 +37,48 @@
         </nav>
     </header>
     <main>
-    
+        <div id="discover">
+            <h3 class="visited">Visit Counter</h3>
+            <div class="row">
+                <p class="imageDesc">Welcome to Queen Creek!</p>
+                <img class="lazy" alt="Queen Creek town sign" src="images/placeholder.png" data-src="images/sign.jpg">
+            </div>
+            <div class="row">
+                <p class="imageDesc">We have many shops and businesses to choose from, along with many networking opportunities!</p>
+                <img class="lazy" alt="Shops near the mountain" src="images/placeholder.png" data-src="images/shops.jpg">
+            </div>
+            <div class="row">
+                <p class="imageDesc">The nearby mountain is one of our most popular attractions. There are many hiking trails available for adventure.</p>
+                <img class="lazy" alt="Trials in the mountains" src="images/placeholder.png" data-src="images/trail2.jpg">
+            </div>
+            <div class="row">
+                <p class="imageDesc">Many trails are perfect for horses.</p>
+                <img class="lazy" alt="More trails in the mountains" src="images/placeholder.png" data-src="images/trail.jpg">
+            </div>
+            <div class="row">
+                <p class="imageDesc">We have a beautiful library available for the public.</p>
+                <img class="lazy" alt="Queen Creek library" src="images/placeholder.png" data-src="images/library.jpg">
+            </div>
+            <div class="row">
+                <p class="imageDesc">The mountain provides a wonderful view.</p>
+                <img class="lazy" alt="Nearby mountain" src="images/placeholder.png" data-src="images/mountain.jpg">
+            </div>
+            <div class="row">
+                <p class="imageDesc">The sunsets are often magnificent.</p>
+                <img class="lazy" alt="Sunset with cactus in the background" src="images/placeholder.png" data-src="images/sunset.jpg">
+            </div>
+            <div class="row">
+                <p class="imageDesc">The town is flourishing and constantly providing new opportunities.</p>
+                <img class="lazy" alt="Houses under construction" src="images/placeholder.png" data-src="images/construction.jpg">
+            </div>
+            <div class="row">
+                <p class="imageDesc">Many horse lovers will enjoy the parks.</p>
+                <img class="lazy" alt="Horse park sign" src="images/placeholder.png" data-src="images/horses.jpg">
+            </div>
+        </div>
     </main>
     <footer>
-        <a class="footerLogo" href="index.html"><img class="logo" src="images/mountain.webp" alt="Mountainside Chambers logo"></a>
+        <img class="footerLogo" src="images/mountain.webp" alt="Mountainside Chambers logo">
         <div id="footerInfo">
             <h2>Mountainside Chambers</h2>
             <p>22246 S Ellsworth, Queen Creek, AZ</p>
@@ -51,6 +91,7 @@
     <script>lastModified()</script>
     <script>getDate()</script>
     <script>showNav()</script>
-    <script>windChill()</script>
+    <script>lazyLoad()</script>
+    <script>visitCounter()</script>
 </body>
 </html>
