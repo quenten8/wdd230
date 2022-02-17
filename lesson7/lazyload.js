@@ -1,7 +1,7 @@
 function lazyLoad() {
     const options = {
-        threshold: 0.9,
-        rootMargin: "0px"
+        threshold: 0.8,
+        rootMargin: "0px 0px -50px 0px"
     };
     document.addEventListener("DOMContentLoaded", function() {
         const observer = new IntersectionObserver((entries, observer) => {
