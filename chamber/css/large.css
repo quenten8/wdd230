@@ -31,12 +31,12 @@
     #join {
         grid-area: 3 / 1 / 4 / 2;
     }
-    #highlights {
+    #spotlights {
         grid-area: 1 / 4 / 4 / 5;
         display: grid;
         grid-template-columns: 1fr;
     }
-    #highlights h3 {
+    #spotlights h3 {
         grid-column: 1/2;
     }
     footer {
@@ -53,7 +53,7 @@
     }
     img.loaded:hover {
         width: 250%;
-        height: 450px;
+
     }
     
     .navigation a:first-child {
