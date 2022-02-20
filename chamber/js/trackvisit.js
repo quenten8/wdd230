@@ -11,7 +11,7 @@ function visitDate() {
     {
       if (lastVisited > 86400000)
       {
-        visited.textContent = "Welcome back! You last visited earlier today (0 days).";
+        visited.textContent = "Welcome back! Your last visit was less than a day ago.";
       }
       else
       {

@@ -152,6 +152,9 @@ h3 {
     border: none;
     display: grid;  
 }
+#spotlights h4, #join p, #events p {
+    text-align: center;
+}
 
 #discover {
     display: grid;
