@@ -54,6 +54,11 @@
     img.loaded:hover {
         width: 250%;
     }
+    input:not(#submit) {
+        height: 30px;
+     }
+
+
     
     .navigation a:first-child {
         display: none;
@@ -64,6 +69,7 @@
       }
     .navigation a {
 		display: block;
+        border: none;
     }
     .navigation a:nth-child(2) {
         border-radius: 8px 0px 0px 8px;

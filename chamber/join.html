@@ -15,9 +15,8 @@
 <link href="css/large.css" rel="stylesheet">
 <script src="../js/year.js"></script>
 <script src="../js/lastModified.js"></script>
-<script src="js/responsive.js"></script>
 <script src="js/date.js"></script>
-<script src="js/windchill.js"></script>
+<script src="js/responsive.js"></script>
 </head>
 <body>
     <header>
@@ -36,7 +35,97 @@
         </nav>
     </header>
     <main>
-    
+        <div id="joinContent">
+            <h2>Join Mountainside Chamber</h2>
+            <form action="thankyou.html" method="get"><span></span>
+                <p><span>*</span>indicates required field.</p>
+                <label for="fName"><span>*</span>First name:</label>
+                <input type="text" id="fName" name="fName" required><br><br>
+
+                <label for="lName"><span>*</span>Last name:</label>
+                <input type="text" id="lName" name="lName" required><br><br>
+                
+                <label for="position"><span></span>Business Position Title:</label>
+                <label id="alphanumeric" for="position"><span></span>(Only alphanumeric, hyphens and spaces)</label>
+                <input type="text" id="position" name="position" pattern="[a-zA-Z0-9- ]{7}"><br><br>
+
+                <label for="email"><span>*</span>Email:</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com" required><br><br>
+
+                <label for="phone"><span>*</span>Cell Number:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="bName"><span>*</span>Business Name:</label>
+                <input type="text" id="bName" name="bName" required><br><br>
+
+                <div id="member"><span></span>Membership Level:</div>
+                <label class="radio" for="nonProfit"><input type="radio" id="nonProfit" name="membership" value="nonProfit"><span></span>Non Profit</label><br>
+                <label class="radio" for="bronze"><input type="radio" id="bronze" name="membership" value="Bronze"><span></span>Bronze</label><br>
+                <label class="radio" for="silver"><input type="radio" id="silver" name="membership" value="Silver"><span></span>Silver</label><br>
+                <label class="radio" for="gold"><input type="radio" id="gold" name="membership" value="Gold"><span></span>Gold</label><br>
+                <label class="radio" for="notSure"><input type="radio" id="notSure" name="membership" value="Not sure"><span></span>Not Sure</label><br><br>
+
+                <label for="bDesc"><span></span>Business Description:</label>
+                <textarea id="bDesc" name="bDesc" placeholder="Enter a brief description of your business."></textarea><br><br>
+
+                <input type="hidden" id="formDate" name="formDate">
+                <script>
+                    document.getElementById('formDate').value = Date();
+                  </script>
+
+                <input id="submit" type="submit" value="Join Chamber">
+          </form>
+          <div class="memberships">
+              <h2>Membership Levels</h2>
+              <hr>
+            <div> 
+                <h3>Non Profit</h3>
+                <p>Benefits Inlclude:</p>
+                <ul>
+                    <li>Weekly town news email</li>
+                    <li>Community service connections</li>
+                    <li>Able to submit news and announcements</li>
+                </ul>
+                <p>Price: Free</p>
+            </div>
+            <hr>
+            <div>  
+                <h3>Bronze</h3>
+                <p>Benefits Inlclude:</p>
+                <ul>
+                    <li>All previous rewards</li>
+                    <li>10% discount for Chamber events</li>
+                    <li>Chamber logo and decal for your place of business</li>
+                    <li>Add your business to the Chamber list of businesses</li>
+                </ul>
+                <p>Price: $200 per year</p>
+            </div>
+            <hr>
+            <div>  
+                <h3>Silver</h3>
+                <p>Benefits Inlclude:</p>
+                <ul>
+                    <li>All previous rewards</li>
+                    <li>20% discount on Chamber events</li>
+                    <li>Add social media links to your business listing</li>
+                    <li>Referals to your business</li>
+                </ul>
+                <p>Price: $400 per year</p>
+            </div>
+            <hr>
+            <div>  
+                <h3>Gold</h3>
+                <p>Benefits Inlclude:</p>
+                <ul>
+                    <li>All previous rewards</li>
+                    <li>40% discount on Chamber events</li>
+                    <li>Business gets shown on the frontpage spotlight section</li>
+                    <li>Business cards in the Chamber lobby</li>
+                </ul>
+                <p>Price: $600 per year</p>
+            </div>
+          </div>
+        </div>
     </main>
     <footer>
         <img class="footerLogo" src="images/mountain.webp" alt="Mountainside Chamber logo">
@@ -52,6 +141,5 @@
     <script>lastModified()</script>
     <script>getDate()</script>
     <script>showNav()</script>
-    <script>windChill()</script>
 </body>
 </html>

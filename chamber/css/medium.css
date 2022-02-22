@@ -66,4 +66,10 @@
         display: flex;
         overflow: hidden;
     }
+    form {
+        grid-column: 1/2;
+    }
+    .memberships {
+        grid-column: 2/3;
+    }
 }
