@@ -1,0 +1,36 @@
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+section {
+    background-color: #E4E1F1;
+    text-align: center;
+    border: 2px solid #8D86B2;
+}
+img {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h1 {
+    color: #7065AA;
+    text-align: center;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+h2 {
+    color: #6F65B1;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+}
+p {
+    font-family: Arial, sans-serif;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+}

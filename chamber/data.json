@@ -1,0 +1,88 @@
+{
+    "businesses": [
+        {
+            "name": "Joeys",
+            "address": "1223 main St.",
+            "phone": "480-",
+            "website": "something.com",
+            "image": "images/pizza.png"
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "image": "images/accounting.png"
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "image": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "image": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "image": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "image": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "image": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "image": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "image": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "image": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "image": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "image": ""
+        }
+    ]
+}

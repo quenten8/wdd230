@@ -30,7 +30,6 @@ header {
 }  
 #title {
     grid-row: 1;
-    font-size: x-large;
 }
 #date {
     grid-row: 2;
@@ -252,6 +251,13 @@ input[type=radio]{
     margin: 40px 0 200px 0;
 }
 
+/*Directory*/
+.cards {
+    border: solid black;
+}
+.cards section {
+    border: 1px solid black;
+}
 
 /*Footer*/ 
 footer {
@@ -294,7 +300,7 @@ footer {
     text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
     box-shadow: 2px 7px 5px rgba(0,0,0,0.3);
     display: none;
-    border-top: 1px solid black;
+    border-top: 1px solid #EBE8DD;
 }
 .navigation a:hover, .social:hover, #heroButton:hover, #joinButton:hover, #submit:hover {
     background: #D14B1D;

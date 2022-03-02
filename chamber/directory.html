@@ -17,7 +17,7 @@
 <script src="../js/lastModified.js"></script>
 <script src="js/responsive.js"></script>
 <script src="js/date.js"></script>
-<script src="js/windchill.js"></script>
+<script src="js/jsonDirectory.js"></script>
 </head>
 <body>
     <header>
@@ -36,8 +36,8 @@
         </nav>
     </header>
     <main>
-    
-    </main>
+        <div class="cards"></div>
+      </main>
     <footer>
         <img class="footerLogo" src="images/mountain.webp" alt="Mountainside Chamber logo">
         <div id="footerInfo">
@@ -52,6 +52,6 @@
     <script>lastModified()</script>
     <script>getDate()</script>
     <script>showNav()</script>
-    <script>windChill()</script>
+    <script>loadDirectory()</script>
 </body>
 </html>
