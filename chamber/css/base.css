@@ -304,7 +304,6 @@ input[type=radio]{
 }
 .list section {
     grid-column: 1/4;
-    border-radius: none;
     border: none;
     padding: 5px;
     box-shadow: none;
