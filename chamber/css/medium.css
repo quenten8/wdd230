@@ -72,4 +72,12 @@
     .memberships {
         grid-column: 2/3;
     }
+    /*Directory*/
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    .list section {
+        display: grid;
+        grid-template-columns: 20% 25% 25% 30%;
+    }
 }

@@ -26,17 +26,23 @@ function loadDirectory() {
             phone.textContent = `${business.phone}`;
             website.textContent = `${business.website}`;
     
-
             logo.setAttribute('src', business.image);
             logo.setAttribute('alt', `Logo of ${business.name}`);
             logo.setAttribute('loading', 'lazy');
           
+            card.appendChild(logo);
             card.appendChild(busName);
             card.appendChild(address);
             card.appendChild(phone);
             card.appendChild(website);
-            card.appendChild(logo);
           
             cards.appendChild(card);
           }
+
+          const listButton = document.querySelector('.listButton');
+          const cardButton = document.querySelector('.cardButton');
+          const dirFormat = document.querySelector('.cards')
+          listButton.addEventListener('click', () => {dirFormat.classList.add('list'),cardButton.classList.remove('list'),listButton.classList.add('list')}, false);
+          cardButton.addEventListener('click', () => {dirFormat.classList.remove('list'),listButton.classList.remove('list'),cardButton.classList.add('list')}, false);
+          window.onload = () => {if (window.innerWidth < 900) dirFormat.classList.add('list'),cardButton.classList.remove('list'),listButton.classList.add('list')};
     }

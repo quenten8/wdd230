@@ -57,7 +57,13 @@
     input:not(#submit) {
         height: 30px;
      }
-
+     .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /*Directory*/
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
     
     .navigation a:first-child {

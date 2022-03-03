@@ -30,6 +30,7 @@ header {
 }  
 #title {
     grid-row: 1;
+    font-size: x-large;
 }
 #date {
     grid-row: 2;
@@ -253,10 +254,63 @@ input[type=radio]{
 
 /*Directory*/
 .cards {
-    border: solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 .cards section {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #D14B1D;
+    border-radius: 6px;
+    text-align: center;
+}
+.cards img {
+    width: 100%;
+    max-width: 450px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+#dirFormat {
+    display: flex;
+    justify-content: center;
+}
+.cardButton, .listButton {
+    width: 80px;
+    height: 45px;
+    padding-top: 5px;
+    text-align: center;
     border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color .3s;
+    font-size: 2.3rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cardButton.list {
+    background-color: #A7DFDF;
+}
+.listButton.list {
+    background-color: #A7DFDF;
+}
+.list img {
+    display: none;
+}
+.list.cards {
+    gap: 0px;
+    border: 2px solid #D14B1D;
+    border-radius: 6px;
+}
+.list section {
+    grid-column: 1/4;
+    border-radius: none;
+    border: none;
+    padding: 5px;
+    box-shadow: none;
+}
+.list section:nth-child(2n-1) {
+    background-color: #E0FAF6;
 }
 
 /*Footer*/ 

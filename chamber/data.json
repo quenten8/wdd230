@@ -1,88 +1,88 @@
 {
     "businesses": [
         {
-            "name": "Joeys",
-            "address": "1223 main St.",
-            "phone": "480-",
-            "website": "something.com",
+            "name": "Joeys Pizza",
+            "address": "1223 Main St.",
+            "phone": "555-753-7534",
+            "website": "JoeysPizza.com",
             "image": "images/pizza.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "website": "",
+            "name": "Crystal Clear Accounting",
+            "address": "1327 Main St.",
+            "phone": "555-245-2323",
+            "website": "CrystalClear.com",
             "image": "images/accounting.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "image": ""
+            "name": "Jimmy's Tires",
+            "address": "1283 Main St.",
+            "phone": "555-137-2644",
+            "website": "JimmyTire.com",
+            "image": "images/tires.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "image": ""
+            "name": "Sunfield Salon",
+            "address": "1257 North St.",
+            "phone": "555-535-7563",
+            "website": "SunfieldSalon.com",
+            "image": "images/salon.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "image": ""
+            "name": "Fresh Grocery Store",
+            "address": "1243 Main St.",
+            "phone": "555-356-5532",
+            "website": "FreshGrocery.com",
+            "image": "images/grocery.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "image": ""
+            "name": "Timmy's Tacos",
+            "address": "1445 Maple St.",
+            "phone": "555-252-1358",
+            "website": "TimmysTacos.com",
+            "image": "images/taco.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "image": ""
+            "name": "Rushing Waterpark",
+            "address": "13778 Main St.",
+            "phone": "555-343-3560",
+            "website": "RushingWaterpark.com",
+            "image": "images/waterpark.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "image": ""
+            "name": "Savory Grill",
+            "address": "1275 Maple St.",
+            "phone": "555-535-8889",
+            "website": "SavoryGrill.com",
+            "image": "images/grill.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "image": ""
+            "name": "Storm Car Wash",
+            "address": "1233 North St.",
+            "phone": "555-445-3561",
+            "website": "StormCarWash.com",
+            "image": "images/carwash.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "image": ""
+            "name": "Hillside Bank",
+            "address": "1235 Hillside St.",
+            "phone": "555-446-0806",
+            "website": "HillsideBank.com",
+            "image": "images/bank.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "image": ""
+            "name": "Swirl Icecream Shop",
+            "address": "76387 West St.",
+            "phone": "555-347-2512",
+            "website": "SwirlIcecream.com",
+            "image": "images/icecream.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "website": "",
-            "image": ""
+            "name": "Lola's Laundromat",
+            "address": "1239 Main St.",
+            "phone": "555-356-3457",
+            "website": "LolaLaundry.com",
+            "image": "images/laundromat.png"
         }
     ]
 }

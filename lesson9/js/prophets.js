@@ -24,18 +24,18 @@ fetch(requestURL)
         birthDate.textContent = `Date of birth: ${prophet.birthdate}`;
         birthPlace.textContent = `Place of birth: ${prophet.birthplace}`;
 
-function suffix(num) {
-    const j = num % 10, k = num % 100;
-    if (j == 1 && k != 11) {
-      return `${num}st`;
-    } else if (j == 2 && k != 12) {
-      return `${num}nd`;
-    } else if (j == 3 && k != 13) {
-      return `${num}rd`;
-    } else {
-      return `${num}th`;
-    }
-  }
+        function suffix(num) {
+            const j = num % 10, k = num % 100;
+            if (j == 1 && k != 11) {
+              return `${num}st`;
+            } else if (j == 2 && k != 12) {
+              return `${num}nd`;
+            } else if (j == 3 && k != 13) {
+              return `${num}rd`;
+            } else {
+              return `${num}th`;
+            }
+          }
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${suffix(prophet.order)} Latter-day President`);
         portrait.setAttribute('loading', 'lazy');
