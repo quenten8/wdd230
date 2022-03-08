@@ -4,7 +4,7 @@ function windChill() {
     fetch(apiURL)
       .then((response) => response.json())
       .then((jsObject) => {        
-        const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+        const iconsrc= `https://openweathermap.org/img/wn/${jsObject.weather[0].icon}.png`;
         const description = jsObject.weather[0].description;
         let temp = jsObject.main.temp;
         let speed = jsObject.wind.speed;
