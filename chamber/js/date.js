@@ -13,4 +13,6 @@ function getDate() {
 if (weekday != "Monday" && "Tuesday") {
   document.getElementById("banner").style.display = "none"
   }
+  //Join page form date
+  document.getElementById('formDate').value = Date();
 }

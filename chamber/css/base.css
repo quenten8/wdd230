@@ -46,7 +46,7 @@ header {
     border-bottom-left-radius: 6px;
 }
 
-/*Main Content*/
+/*Home Page*/
 main {
     max-width: 1600px;
 	margin: 0 auto;
@@ -97,7 +97,6 @@ h4, h3, h2 {
     border-radius: 5px;
     text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
     box-shadow: 2px 7px 5px rgba(0,0,0,0.3);
-    border: 1px solid black;
 }
 #joinButton, #submit {
     margin: 5px auto;
@@ -118,36 +117,41 @@ h4, h3, h2 {
 #weather {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 50px 50px 10px 40px 40px;
+    grid-template-rows: 50px 50px 50px 0px 50px 50px 30px;
     align-items: center;
     justify-items: center;
-    text-align: center;
 }
 #weather h3 {
     grid-column: 1/3;
 }
-#weather h4, #weatherIcon {
+#weatherIcon {
     grid-column: 1/2;
+    width: 100px;
+    filter: drop-shadow(0 0 0 black);
 }
 #weather p, span {
     grid-column: 2/3;
 }
-#temp, #degree {
+#temp {
     font-weight: bold;
-    font-size: x-large;
+    font-size: 1.4rem;
 }
-#weather #condition {
+#weather #currentWeather {
     grid-column: 1/3;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 1.2rem;
+    text-transform: capitalize;
 }
 #weather hr {
     grid-column: 1/3;
     width: 100%;
     border: 1px solid black;
 }
-#weatherIcon {
-    width: 60px;
+#source {
+    grid-column: 1/3;
+    font-size: smaller;
+    display: flex;
+    margin: -10px;
 }
 #spotlights div {
     border: none;
@@ -169,6 +173,7 @@ h4, h3, h2 {
 }
 .visited {
     justify-self: center;
+    margin-bottom: 40px;
 }
 img[data-src] {
     filter: blur(0.5em);
@@ -247,7 +252,7 @@ input[type=radio]{
     width: fit-content;
     justify-self: center;
 }
-#thankYou {
+#thankYou, #contact {
     text-align: center;
     margin: 40px 0 200px 0;
 }
@@ -267,7 +272,7 @@ input[type=radio]{
 .cards img {
     width: 100%;
     max-width: 450px;
-    height: 310px;
+    height: 350px;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -310,6 +315,14 @@ input[type=radio]{
 }
 .list section:nth-child(2n-1) {
     background-color: #E0FAF6;
+}
+/*Footer*/ 
+#contact div {
+    margin: 0 auto;
+    width: 500px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: 3px solid #D14B1D;
 }
 
 /*Footer*/ 

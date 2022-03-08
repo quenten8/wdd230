@@ -1,15 +1,15 @@
 function visitDate() {
     const visited = document.querySelector(".visited");
     let date = new Date().getTime();
-    let lastVisited = Number(window.localStorage.getItem("visitedDate"));
+    let lastVisited = window.localStorage.getItem("visitedDate");
     let daysBetween;
-    if(lastVisited == 0)
+    if(lastVisited == null)
     {
         visited.textContent = "This is your first visit, welcome!";
     }
     else
     {
-      if (lastVisited > 86400000)
+      if (date - lastVisited < 86400000)
       {
         visited.textContent = "Welcome back! Your last visit was less than a day ago.";
       }

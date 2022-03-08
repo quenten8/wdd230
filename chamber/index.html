@@ -64,14 +64,15 @@
             </div>
             <div id="weather">
                 <h3>Weather</h3>
-                <img id="weatherIcon" src="images/weather.jpg" alt="Weather Icon">
-                <p id="degree"><span id="temp">50</span>°</p>
-                <h4 id="condition">Mostly Sunny</h4>
+                <img id="weatherIcon" src="images/weather.jpg" alt="">
+                <span id="temp"></span>
+                <p id="currentWeather">Mostly Sunny</p>
                 <hr>
                 <h4>• Wind Speed:</h4>
-                <p><span id="speed">5.5</span> mph</p>
+                <p><span id="speed"></span> mph</p>
                 <h4>• Wind Chill:</h4>
-                <p><span id="chill"></span>°</p>
+                <span id="chill"></span>
+                <span id="source">Sourced from OpenWeatherMap</span>
             </div>
             <div id="join">
                 <h3>Join</h3>
@@ -96,9 +97,9 @@
             <h2>Mountainside Chamber</h2>
             <p>22246 S Ellsworth, Queen Creek, AZ</p>
             <p>+(480)-888-1709</p>
-            <a href="https://www.google.com/maps?ll=33.245223,-111.634921&z=14&t=m&hl=en&gl=US&mapclient=embed&cid=8718695085274077188">📍Locate On Map</a>
+            <a href="https://www.google.com/maps?ll=33.245223,-111.634921&z=14&t=m&hl=en&gl=US&mapclient=embed&cid=8718695085274077188" target="_blank">📍Locate On Map</a>
         </div>
-        <div id="smallFooter"><p><hr>&copy; <span id="year"></span> | Mountainside Chamber | Quenten Cox | WDD 230 Project | Last Updated: <span id="Modified"></span></div>
+        <div id="smallFooter"><p><hr>&copy; <span id="year"></span> | Quenten Cox | WDD 230 Project |         <a href="https://www.openweathermap.org" target="_blank">OpenWeatherMap</a> | Last Updated: <span id="Modified"></span></div>
     </footer>
     <script>year()</script>
     <script>lastModified()</script>

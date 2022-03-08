@@ -1,10 +1,5 @@
 function lastModified() {
-  let get = new Date(document.lastModified);
-  let month = get.getUTCMonth() + 1;
-  let day = get.getUTCDate();
-  let year = get.getUTCFullYear();
-  let hour = get.getUTCHours();
-  let minute = get.getUTCMinutes();
-  date = `${month}/${day}/${year} ${hour}:${minute}`;
+  let d = new Date(document.lastModified);
+  let date = d.toLocaleString();
   document.getElementById("Modified").innerHTML = date;
 }

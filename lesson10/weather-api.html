@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather</title>
+<meta name="description" content="current weather at Queen Creek">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<link href="css/weather-api.css" rel="stylesheet">
+<script src="js/weatherapi.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Queen Creek, AZ Weather</h1>
+        <hr>
+        <p>The current temperature is <span id="current-weather"></span> F&deg</p>
+        <p>The condition icon path is <span id="icon-src"></span></p>
+        <img id="weatherIcon">
+        <br>
+        <span id="iconText"></span>
+    </main>
+    <footer>
+        <p>Weather Service: OpenWeatherMap</p>
+    </footer>
+    <script>getWeather()</script>
+</body>
+</html>
