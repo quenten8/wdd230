@@ -94,7 +94,7 @@ h4, h3, h2 {
     text-align: center;
     transition: 0.3s;
     border-radius: 5px;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3), -1px 1px 0  white,1px 1px 0  white,1px -1px 0 white,-1px -1px 0  white;
     box-shadow: 2px 7px 5px rgba(0,0,0,0.3);
     border: none;
 }
@@ -126,7 +126,7 @@ h4, h3, h2 {
 }
 #weatherIcon {
     grid-column: 1/2;
-    width: 100px;
+    width: 80px;
     filter: drop-shadow(0 0 0 black);
 }
 #weather p, span {
@@ -363,7 +363,7 @@ footer {
 .navigation a {
     background:#50A6A5;
     padding: 10px 50px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #2D2D2D;
     text-align: center;
     transition: 0.3s;
