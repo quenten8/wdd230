@@ -18,6 +18,7 @@
 <script src="js/responsive.js"></script>
 <script src="js/date.js"></script>
 <script src="js/windchill.js"></script>
+<script src="js/spotlight.js"></script>
 </head>
 <body>
     <header>
@@ -64,7 +65,7 @@
             </div>
             <div id="weather">
                 <h3>Weather</h3>
-                <img id="weatherIcon" src="images/weather.jpg" alt="">
+                <img id="weatherIcon" alt="">
                 <span id="temp"></span>
                 <p id="currentWeather">Mostly Sunny</p>
                 <hr>
@@ -82,12 +83,8 @@
             </div>
             <div id="spotlights">
                 <h3>Company Spotlights</h3>
-                <div><h4>Joey's Pizza</h4>
-                    <img class="companyLogo" src="images/pizza.png" alt="Joey's Pizza logo">
-                    <p>Come enjoy a delicious slice of pizza! Our resataunt is at Elm and Main Street!</p></div>
-                <div><h4>Crystal Clear Accounting</h4>
-                    <img class="companyLogo" src="images/accounting.png" alt="Crystal Clear Accounting logo">
-                    <p>Money out of control? See where every dollar goes here at Crystal Clear Accounting! Our location is at Elm and First Street, come by today!</p></div>
+                <div class="spotlightCard1"></div>
+                <div class="spotlightCard2"></div>
             </div>
         </div>
     </main>
@@ -106,5 +103,6 @@
     <script>getDate()</script>
     <script>showNav()</script>
     <script>windChill()</script>
+    <script>spotlight()</script>
 </body>
 </html>

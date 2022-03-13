@@ -10,9 +10,10 @@ function getDate() {
   d = `${weekday}, ${day} ${month} ${year}`;
   document.getElementById("date").innerHTML = d;
 
+  //Hide banner
 if (weekday != "Monday" && "Tuesday") {
-  document.getElementById("banner").style.display = "none"
+  document.querySelector('#banner').style.display = "none";
   }
   //Join page form date
-  document.getElementById('formDate').value = Date();
+  document.querySelector('#formDate').value = Date();
 }

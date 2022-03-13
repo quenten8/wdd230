@@ -5,6 +5,10 @@
     #date {
         font-size: large;
     }
+    .logo, #footerLogo {
+        width: 140px;
+        padding: none;
+    }
     .companyLogo {
         min-width: 200px;
         height: 230px;
@@ -76,6 +80,7 @@
     .navigation a {
 		display: block;
         border: none;
+        text-shadow: 3px 5px 4px rgba(0,0,0,0.3);
     }
     .navigation a:nth-child(2) {
         border-radius: 8px 0px 0px 8px;

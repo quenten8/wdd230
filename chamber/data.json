@@ -5,84 +5,96 @@
             "address": "1223 Main St.",
             "phone": "555-753-7534",
             "website": "JoeysPizza.com",
-            "image": "images/pizza.png"
+            "image": "images/pizza.png",
+            "membership": "gold"
         },
         {
             "name": "Crystal Clear Accounting",
             "address": "1327 Main St.",
             "phone": "555-245-2323",
             "website": "CrystalClear.com",
-            "image": "images/accounting.png"
+            "image": "images/accounting.png",
+            "membership": "bronze"
         },
         {
             "name": "Jimmy's Tires",
             "address": "1283 Main St.",
             "phone": "555-137-2644",
             "website": "JimmyTire.com",
-            "image": "images/tires.png"
+            "image": "images/tires.png",
+            "membership": "bronze"
         },
         {
             "name": "Sunfield Salon",
             "address": "1257 North St.",
             "phone": "555-535-7563",
             "website": "SunfieldSalon.com",
-            "image": "images/salon.png"
+            "image": "images/salon.png",
+            "membership": "gold"
         },
         {
             "name": "Fresh Grocery Store",
             "address": "1243 Main St.",
             "phone": "555-356-5532",
             "website": "FreshGrocery.com",
-            "image": "images/grocery.png"
+            "image": "images/grocery.png",
+            "membership": "silver"
         },
         {
             "name": "Timmy's Tacos",
             "address": "1445 Maple St.",
             "phone": "555-252-1358",
             "website": "TimmysTacos.com",
-            "image": "images/taco.png"
+            "image": "images/taco.png",
+            "membership": "bronze"
         },
         {
             "name": "Rushing Waterpark",
             "address": "13778 Main St.",
             "phone": "555-343-3560",
             "website": "RushingWaterpark.com",
-            "image": "images/waterpark.png"
+            "image": "images/waterpark.png",
+            "membership": "bronze"
         },
         {
             "name": "Savory Grill",
             "address": "1275 Maple St.",
             "phone": "555-535-8889",
             "website": "SavoryGrill.com",
-            "image": "images/grill.png"
+            "image": "images/grill.png",
+            "membership": "gold"
         },
         {
             "name": "Storm Car Wash",
             "address": "1233 North St.",
             "phone": "555-445-3561",
             "website": "StormCarWash.com",
-            "image": "images/carwash.png"
+            "image": "images/carwash.png",
+            "membership": "silver"
         },
         {
             "name": "Hillside Bank",
             "address": "1235 Hillside St.",
             "phone": "555-446-0806",
             "website": "HillsideBank.com",
-            "image": "images/bank.png"
+            "image": "images/bank.png",
+            "membership": "gold"
         },
         {
             "name": "Swirl Icecream Shop",
             "address": "76387 West St.",
             "phone": "555-347-2512",
             "website": "SwirlIcecream.com",
-            "image": "images/icecream.png"
+            "image": "images/icecream.png",
+            "membership": "gold"
         },
         {
             "name": "Lola's Laundromat",
             "address": "1239 Main St.",
             "phone": "555-356-3457",
             "website": "LolaLaundry.com",
-            "image": "images/laundromat.png"
+            "image": "images/laundromat.png",
+            "membership": "silver"
         }
     ]
 }
