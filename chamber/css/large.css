@@ -69,7 +69,11 @@
     .cards {
         grid-template-columns: 1fr 1fr 1fr;
     }
-     /*Navigation*/
+    /*Contact*/
+    .contact {
+        padding-bottom: 200px;
+    }
+    /*Navigation*/
     .navigation a:first-child {
         display: none;
     }
