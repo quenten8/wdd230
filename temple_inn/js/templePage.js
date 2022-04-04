@@ -3,7 +3,7 @@ function loadTemples() {
     const requestURL = 'temples.json';
     const cards = document.querySelector('#temples');
     let n = 1;
-
+//Get temples json
     fetch(requestURL)
         .then (function (response) {
             return response.json();
@@ -12,7 +12,7 @@ function loadTemples() {
             const temples = jsonObject['temples'];
             temples.forEach(displayTemples);
         });
-    
+//Display temples
         function displayTemples(temple) {
             
             let card = document.createElement('section');
@@ -59,7 +59,7 @@ function loadTemples() {
             card.appendChild(likeButton);
             likeButton.appendChild(buttonContent);
             cards.appendChild(card);
-
+//Like button
             if (window.localStorage.getItem(`button${n}`) == 1) {
                 buttonContent.classList.add('liked');
             };
@@ -75,7 +75,7 @@ function loadTemples() {
             else if (window.localStorage.getItem(`button${n}`) == null) {
                 localStorage.setItem(event.srcElement.id, 1)
             } }, false);
-            
+//New number for next button id            
             n++;
             return n;
           }
