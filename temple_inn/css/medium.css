@@ -1,0 +1,54 @@
+@media (min-width: 38em) {
+    /*Header*/
+    header {
+        grid-template-rows: 70px 70px;
+    }
+    .logo {
+        width: 110px;
+        padding: 5px;
+    }
+    #title {
+        font-size: xx-large;
+    }
+    #slogan {
+        font-size: 1.3rem;
+    }
+    .social1, .social2 {
+        width: 60px;
+    }
+    #slogan {
+        display: block;
+    }
+    /*Home*/
+    #welcome {
+        font-size: xx-large;
+    }
+    #home {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr
+    }
+    #home section {
+        margin: 10px;
+    }
+    #hero {
+        grid-column: 1/4;
+    }
+    #temple_spotlight {
+        grid-column: 1/4;
+        display: grid;
+    }
+    #weather {
+        grid-column: 1/3;
+    }
+    #call {
+        grid-column: 3/4;
+    }
+    /*Temples*/
+    #temples {
+        grid-template-columns: 1fr 1fr;
+    }
+    /*Services*/
+    .services {
+        display: grid;
+    }
+}

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temple Inn & Suite</title>
+<meta name="description" content="Inns and suites for temple attendees and workers">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="normalize.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<link href="css/base.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+<script src="js/year.js"></script>
+<script src="js/lastModified.js"></script>
+<script src="js/responsive.js"></script>
+<script src="js/weather.js"></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html"><img class="logo" src="images/logo.png" alt="Temple Inn & Suites logo"></a>
+        <h1 id="title" >Temple Inn & Suites</h1>
+        <p id="slogan">Ammenities and services for LDS temple workers and patrons.</p>
+        <div class="social1"><a href="http://instagram.com" target="_blank"><img class="social1" src="images/Instagram.jpg" alt="Instagram logo"></a></div>
+        <div class="social2"><a href="http://facebook.com" target="_blank"><img class="social2" src="images/Facebook.png" alt="Facebook logo"></a></div>
+        <nav class="navigation">
+              <a class="button"></a>
+              <a href="index.html">Home</a>
+              <a href="temples.html">Temples</a>
+              <a href="reservation.html">Reservations</a>
+              <a href="services.html">Services</a>
+        </nav>
+    </header>
+    <main>
+        <div id="home">
+            <section id="hero">
+                <img 
+                id="heroImage"
+                alt="Image of town"
+                src="town_small.jpg"
+                srcset="images/hero_small.jpg 720w, images/hero_medium.jpg 960w, images/hero_large.jpg 1920w"
+                sizes="(max-width: 600px) 150vw, 1000vw">
+                <h2 id="welcome">Welcome!</h2>
+                <a href="reservation.html" id="heroButton">Create Reservation</a>
+            </section>
+            <section id="temple_spotlight">
+                <h3>Temple Summary</h3>
+                <img src="images/gilbert_spotlight.jpg" alt="Gilbert temple" id="spotlight_img">
+                <p>Name: Gilbert Arizona Temple</p>
+                <p>Year Dedicated: 2014</p>
+                <p>Address: 3301 S Greenfield Rd, Gilbert, AZ 85297</p>
+            </section>
+            <section id="weather">
+                <h3>Weather</h3>
+                <h4 id="temp2">• Temperature:</h4><p id="temp"></p>
+                <h4>• Current Condition:</h4>
+                <div>
+                    <img id="weatherIcon" alt="" src="images/weather.jpg">
+                    <p id="currentWeather"></p>
+                </div>
+                <h4>• Humidity:</h4><p id="humidity"></p>
+                <hr>
+                <h3>Three-Day Forecast</h3>
+                <div id="forecast">
+                    <p id="day1"></p>
+                    <p id="day2"></p>
+                    <p id="day3"></p>
+                    <p id="weather1"></p>
+                    <p id="weather2"></p>
+                    <p id="weather3"></p>
+                </div>
+            </section>
+            <section id="call">
+                <h3>Services</h3>
+                <p>Create a reservation today! There are many services and amenities available for your convenience.</p>
+                <a href="services.html" id="callButton">View Services</a>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <img class="footerLogo" src="images/logo.png" alt="Temple Inn & Suites logo">
+        <div id="footerInfo">
+            <h2>Temple Inn & Suites
+            </h2>
+            <p>4800 Montgomery Ln, Bethesda, MD 20814</p>
+            <p>+(555)-888-1709</p>
+            <a href="https://goo.gl/maps/p9NyZfyT3yYAJSdj8" target="_blank">📍Locate On Map</a>
+        </div>
+        <div id="smallFooter"><p><hr>&copy; <span id="year"></span> | Quenten Cox | WDD 230 Final |         <a href="https://www.openweathermap.org" target="_blank">OpenWeatherMap</a> | Last Updated: <span id="Modified"></span></div>
+    </footer>
+    <script>year()</script>
+    <script>lastModified()</script>
+    <script>showNav()</script>
+    <script>weather()</script>
+</body>
+</html>

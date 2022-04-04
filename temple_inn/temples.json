@@ -1,0 +1,52 @@
+{
+    "temples": [
+        {
+            "name": " Gilbert Arizona Temple",
+            "address": "Address: 3301 S Greenfield Rd Gilbert AZ 85297 United States",
+            "phone": "Phone: (1) 480-822-5000",
+            "email": "Email: temple@email.com",
+            "services": "Services: Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "History: 10 April 2008 Announced 13 November 2010 Groundbreaking 2 March 2014 Dedicated",
+            "ordinanceSchedule": "Ordinance Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
+            "sessionSchedule": "Sesion Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
+            "closureSchedule": "Closure Schedule: Monday, 28 March 2022 - Monday, 11 April 2022, Saturday, 1 October 2022, Monday, 3 October 2022 - Monday, 17 October 2022, Wednesday, 23 November 2022 - Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022",
+            "image": "images/gilbert_arizona_temple.jpeg"
+        },
+        {
+            "name": " Monterrey Mexico Temple",
+            "address": "Address: Av. Eugenio Garza Sada Esq. Privada Valle de la Estanzuela Colonia Valle Alto, 64989 Monterrey, Nuevo Leon, Mexico",
+            "phone": "Phone: (52) 81-8104-0635",
+            "email": "Email: temple@email.com",
+            "services": "Services: No clothing rental available No cafeteria available No patron housing available Distribution center nearby",
+            "history": "History: 21 December 1995 Announced 4 November 2000 Groundbreaking 28 April 2002 Dedicated",
+            "ordinanceSchedule": "Ordinance Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
+            "sessionSchedule": "Sesion Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
+            "closureSchedule": "Closure Schedule: Saturday, 2 April 2022 Monday, 18 July 2022 - Monday, 1 August 2022 Saturday, 1 October 2022 Saturday, 24 December 2022 Saturday, 31 December 2022",
+            "image": "images/monterrey_mexico_temple_lds.jpeg"
+        },
+        {
+            "name": " Idaho Falls Idaho Temple",
+            "address": "Address: 1000 Memorial Dr Idaho Falls ID 83402-3410 United States",
+            "phone": "Phone: (1) 208-522-7669",
+            "email": "Email: temple@email.com",
+            "services": "Services: Clothing rental available No cafeteria available No patron housing available Distribution center nearby",
+            "history": "History: 3 March 1937 Announced 19 December 1939 Groundbreaking 23 September 1945 Dedicated 4 June 2017 Rededicated",
+            "ordinanceSchedule": "Ordinance Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
+            "sessionSchedule": "Sesion Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
+            "closureSchedule": "Closure Schedule: Saturday, 2 April 2022 Tuesday, 28 June 2022 - Monday, 11 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022",
+            "image": "images/idaho_falls_temple_lds.jpeg"
+        },
+        {
+            "name": " Mesa Arizona Temple",
+            "address": "Address: 101 S LeSueur Mesa AZ 85204-1031 United States",
+            "phone": "Phone: (1) 480-833-1211",
+            "email": "Email: temple@email.com",
+            "services": "Services: Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "History: 1 October 1919 Announced 25 April 1922 Groundbreaking 23 October 1927 Dedicated 15 April 1975 Rededicated 12 December 2021 Rededicated",
+            "ordinanceSchedule": "Ordinance Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
+            "sessionSchedule": "Sesion Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
+            "closureSchedule": "Closure Schedule: Saturday, 2 April 2022, Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations), Monday, 18 July 2022 - Monday, 1 August 2022, Saturday, 1 October 2022, Wednesday, 23 November 2022 (Limited Operations), Thursday, 24 November 2022, Saturday, 24 December 2022",
+            "image": "images/mesa_temple_reflection.jpeg"
+        }
+    ]
+}

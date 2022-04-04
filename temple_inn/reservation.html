@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temple Inn & Suite</title>
+<meta name="description" content="Inns and suites for temple attendees and workers">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="normalize.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<link href="css/base.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+<script src="js/year.js"></script>
+<script src="js/lastModified.js"></script>
+<script src="js/responsive.js"></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html"><img class="logo" src="images/logo.png" alt="Temple Inn & Suites logo"></a>
+        <h1 id="title" >Temple Inn & Suites</h1>
+        <p id="slogan">Ammenities and services for LDS temple workers and patrons.</p>
+        <div class="social1"><a href="http://instagram.com" target="_blank"><img class="social1" src="images/Instagram.jpg" alt="Instagram logo"></a></div>
+        <div class="social2"><a href="http://facebook.com" target="_blank"><img class="social2" src="images/Facebook.png" alt="Facebook logo"></a></div>
+        <nav class="navigation">
+              <a class="button"></a>
+              <a href="index.html">Home</a>
+              <a href="temples.html">Temples</a>
+              <a href="reservation.html">Reservations</a>
+              <a href="services.html">Services</a>
+        </nav>
+    </header>
+    <main>
+        <div id="reservation">
+                    <h2>Make a reservation</h2>
+                    <form action="thankyou.html" method="get"><span></span>
+                        <p><span>*</span>indicates required field.</p>
+                        <label for="fName"><span>*</span>First name:</label>
+                        <input type="text" id="fName" name="fName" required><br><br>
+        
+                        <label for="lName"><span>*</span>Last name:</label>
+                        <input type="text" id="lName" name="lName" required><br><br>
+                        
+                        <label for="location"><span>*</span>Inn Location:</label>
+                        <input type="text" id="location" name="location" required><br><br>
+        
+                        <label for="email"><span>*</span>Email:</label>
+                        <input type="email" id="email" name="email" placeholder="email@example.com" required><br><br>
+        
+                        <label for="phone"><span>*</span>Cell Number:</label>
+                        <input type="tel" id="phone" name="phone" required><br><br>
+        
+                        <label for="from">Home state or country:</label>
+                        <input type="text" id="from" name="from"><br><br>
+        
+                        <fieldset>
+                            <legend id="room"><span></span>Type of room:</legend>
+                            <label class="radio" for="small_room"><input type="radio" id="small_room" name="room" value="Small Room"><span></span>Small Room</label><br>
+                            <label class="radio" for="large_room"><input type="radio" id="large_room" name="room" value="Large Room"><span></span>Large Room</label><br>
+                            <label class="radio" for="small_suite"><input type="radio" id="small_suite" name="room" value="Small Suite"><span></span>Small Suite</label><br>
+                            <label class="radio" for="large_suite"><input type="radio" id="large_suite" name="room" value="Large Suite"><span></span>Large Suite</label><br>
+                        </fieldset>
+                        <br><br>
+        
+                        <label for="comment"><span></span>Special accomodations or comments:</label>
+                        <textarea id="comment" name="bDesc" placeholder="Special accomodations or comments."></textarea><br><br>
+        
+                        <input type="hidden" id="formDate" name="formDate">
+        
+                        <input id="submit" type="submit" value="Book Reservation">
+                  </form>
+        </div>
+    </main>
+    <footer>
+        <img class="footerLogo" src="images/logo.png" alt="Temple Inn & Suites logo">
+        <div id="footerInfo">
+            <h2>Temple Inn & Suites
+            </h2>
+            <p>4800 Montgomery Ln, Bethesda, MD 20814</p>
+            <p>+(555)-888-1709</p>
+            <a href="https://goo.gl/maps/p9NyZfyT3yYAJSdj8" target="_blank">📍Locate On Map</a>
+        </div>
+        <div id="smallFooter"><p><hr>&copy; <span id="year"></span> | Quenten Cox | WDD 230 Final |         <a href="https://www.openweathermap.org" target="_blank">OpenWeatherMap</a> | Last Updated: <span id="Modified"></span></div>
+    </footer>
+    <script>year()</script>
+    <script>lastModified()</script>
+    <script>showNav()</script>
+</body>
+</html>

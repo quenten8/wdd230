@@ -1,0 +1,90 @@
+@media (min-width: 60em) {
+    /*Header*/
+   #title {
+       font-size: xx-large;
+   }
+   #date {
+       font-size: large;
+   }
+   .logo, .footerLogo {
+       width: 140px;
+       padding: 0;
+   }
+   .companyLogo {
+       min-width: 200px;
+       height: 230px;
+   }
+    /*Home*/
+   #heroImage {
+       height: 100%;
+   }
+   #home {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 500px auto auto;
+   }
+   #hero {
+    grid-column: 1/3;
+    grid-row: 1;
+   }
+   #temple_spotlight {
+    grid-column: 1/2;
+    grid-row: 2/4;
+   }
+   #weather {
+    grid-column: 2/3;
+    grid-row: 2/3;
+   }
+   #call {
+    grid-column: 2/3;
+    grid-row: 3/4;
+   }
+    /*Footer*/
+   footer {
+       grid-template-columns: repeat(3, 250px);
+   }
+    /*Temples*/
+    #temples {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+   /*Services*/
+   .services h2 {
+    grid-column: 1/5;
+    }
+    #serviceLong {
+        grid-column: span 2;
+    }
+   /*Navigation*/
+   .navigation a:first-child {
+       display: none;
+   }
+   .navigation {
+       display: flex;
+       justify-content: center;
+     }
+   .navigation a {
+       display: block;
+       border: none;
+   }
+   .navigation a:nth-child(2) {
+       border-radius: 8px 0px 0px 8px;
+   }
+   .navigation a:last-child {
+       border-radius: 0px 8px 8px 0px;
+   }
+   .navigation a:nth-child(2) {
+       border: none;
+   }
+   .navigation a:hover, .social:hover, #heroButton:hover, #callButton:hover, #submit:hover, .subpageButton:hover {
+    background: #3A8CBE;
+    cursor: pointer;
+    }
+    /*Reservation*/
+    input {
+        max-width: 400px;
+    }
+    #reservation {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
