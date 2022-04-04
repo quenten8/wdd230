@@ -10,7 +10,7 @@
             "ordinanceSchedule": "Ordinance Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
             "sessionSchedule": "Sesion Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
             "closureSchedule": "Closure Schedule: Monday, 28 March 2022 - Monday, 11 April 2022, Saturday, 1 October 2022, Monday, 3 October 2022 - Monday, 17 October 2022, Wednesday, 23 November 2022 - Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022",
-            "image": "images/gilbert_arizona_temple.jpeg"
+            "image": "images/gilbert-arizona-temple.webp"
         },
         {
             "name": " Monterrey Mexico Temple",
@@ -22,7 +22,7 @@
             "ordinanceSchedule": "Ordinance Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
             "sessionSchedule": "Sesion Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
             "closureSchedule": "Closure Schedule: Saturday, 2 April 2022 Monday, 18 July 2022 - Monday, 1 August 2022 Saturday, 1 October 2022 Saturday, 24 December 2022 Saturday, 31 December 2022",
-            "image": "images/monterrey_mexico_temple_lds.jpeg"
+            "image": "images/monterrey-mexico-temple-lds.webp"
         },
         {
             "name": " Idaho Falls Idaho Temple",
@@ -34,7 +34,7 @@
             "ordinanceSchedule": "Ordinance Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
             "sessionSchedule": "Sesion Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
             "closureSchedule": "Closure Schedule: Saturday, 2 April 2022 Tuesday, 28 June 2022 - Monday, 11 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022",
-            "image": "images/idaho_falls_temple_lds.jpeg"
+            "image": "images/idaho-falls-temple-lds.webp"
         },
         {
             "name": " Mesa Arizona Temple",
@@ -46,7 +46,7 @@
             "ordinanceSchedule": "Ordinance Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
             "sessionSchedule": "Sesion Schedule: Sunday - Monday not available, Tuesday - Saturday 6am to 6pm",
             "closureSchedule": "Closure Schedule: Saturday, 2 April 2022, Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations), Monday, 18 July 2022 - Monday, 1 August 2022, Saturday, 1 October 2022, Wednesday, 23 November 2022 (Limited Operations), Thursday, 24 November 2022, Saturday, 24 December 2022",
-            "image": "images/mesa_temple_reflection.jpeg"
+            "image": "images/mesa-temple-reflection.webp"
         }
     ]
 }

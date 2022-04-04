@@ -17,9 +17,9 @@ function weather() {
 
         const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-        let d1 = new Date();
-        let d2 = new Date(Date.now() + ( 3600 * 1000 * 24));
-        let d3 = new Date(Date.now() + ( 3600 * 1000 * 48));
+        let d1 = new Date(Date.now() + ( 3600 * 1000 * 24));
+        let d2 = new Date(Date.now() + ( 3600 * 1000 * 24 *2));
+        let d3 = new Date(Date.now() + ( 3600 * 1000 * 24 * 3));
 
         document.querySelector('#day1').textContent = weekday[d1.getDay()];
         document.querySelector('#day2').textContent = weekday[d2.getDay()];

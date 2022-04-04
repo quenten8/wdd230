@@ -51,7 +51,7 @@
    .services h2 {
     grid-column: 1/5;
     }
-    #serviceLong {
+    .serviceLong {
         grid-column: span 2;
     }
    /*Navigation*/
